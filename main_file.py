@@ -12,8 +12,8 @@ import content as opt
 import content as ba
 import content as tv
 
-input_folder = './images/low/'
-output_folder = './images/high/'
+input_folder = './Low-images/'
+output_folder = './High-images/'
 
 
 Path(output_folder).mkdir(parents=True, exist_ok=True)
