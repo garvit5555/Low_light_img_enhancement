@@ -69,8 +69,8 @@ def calculate_psnr_for_all_images(reference_folder, denoised_folder):
     return psnr_values
 
 # Example usage:
-reference_folder = 'images/low'  # Path to reference images
-denoised_folder = 'images/high'  # Path to denoised images
+reference_folder = 'Low-images'  # Path to reference images
+denoised_folder = 'High-images'  # Path to denoised images
 
 # Calculate PSNR for all image pairs in the folders
 psnr_values = calculate_psnr_for_all_images(reference_folder, denoised_folder)
@@ -83,5 +83,4 @@ plt.xlabel('Image Pair Index')
 plt.ylabel('PSNR (dB)')
 plt.grid(True)
 plt.show()
-
 
